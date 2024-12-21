@@ -1,115 +1,151 @@
 [[nPth]]
 arch = "aarch64"
-git-tree-sha1 = "e703e52b4412ca539015875d625d17ce2ea659a8"
-libc = "glibc"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "68c8fff5b3578c04500b9a7dfbdbf9fb0b3a037f0f8f5f97c653fc8a811e94ca"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.aarch64-linux-gnu.tar.gz"
-[[nPth]]
-arch = "aarch64"
-git-tree-sha1 = "39b779cbcb87f738608a4c816719a50ab510130a"
-libc = "musl"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "f804395227f9a6edd7efce772f99775a6dbca640e023f3757d4d7f5b88915541"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.aarch64-linux-musl.tar.gz"
-[[nPth]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "594a7bc35c10c026c6b2974a50013def9667e8f1"
-libc = "glibc"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "a1f3d58737754937e2809a51a7f98fb53ceea62d158db663b5e12f0ab512492d"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.armv7l-linux-gnueabihf.tar.gz"
-[[nPth]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "8ffc582ddbb3bc6bc4488972407afd1f7fe152b0"
-libc = "musl"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "de483157f78f85f8720a76f68dd4a7f91a6dcf910bf6fa96e09058233069942c"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.armv7l-linux-musleabihf.tar.gz"
-[[nPth]]
-arch = "i686"
-git-tree-sha1 = "c590d5299645edb8b1c72726a3a1e78e59a0c66a"
-libc = "glibc"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "e31847a79a3983195adc9a05127267c91c0f89efd3247adb1b6e3e24d5060d6e"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.i686-linux-gnu.tar.gz"
-[[nPth]]
-arch = "i686"
-git-tree-sha1 = "9b364834dc765a484bc694a324d71572f0d3d133"
-libc = "musl"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "438e5cda0ed0b0eba92a5d269e7adeb0c8816e3215882126e9cb08e2e086e9f0"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.i686-linux-musl.tar.gz"
-[[nPth]]
-arch = "i686"
-git-tree-sha1 = "fbff6df0118a55db840ccd6494875509a88207fc"
-os = "windows"
-
-    [[nPth.download]]
-    sha256 = "26f260c1eb63d48964e42125c3d59d775980249374426ee82bd6d0d8e42b2187"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.i686-w64-mingw32.tar.gz"
-[[nPth]]
-arch = "powerpc64le"
-git-tree-sha1 = "57d6a1cd2416a0d95fd829762d92f53ba97d6aef"
-libc = "glibc"
-os = "linux"
-
-    [[nPth.download]]
-    sha256 = "97039219e904f1025d01cd330137fdb8b78571d31b76b0d1c18fe819531f5c77"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.powerpc64le-linux-gnu.tar.gz"
-[[nPth]]
-arch = "x86_64"
-git-tree-sha1 = "418d0572b19ca397d314a3b0c37684da068f9dd6"
+git-tree-sha1 = "07f6e943be6f27a264a1bc389018e424b00b917f"
 os = "macos"
 
     [[nPth.download]]
-    sha256 = "670ebfb04c9610520f5feb4066dbb0eaf6cb79846905062d928f29f917f81e30"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "2ec01e2f10e78ef063648cc316068c1d769e4b8d84ba4dad12a71d9003dd9624"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.aarch64-apple-darwin.tar.gz"
 [[nPth]]
-arch = "x86_64"
-git-tree-sha1 = "9b47b629554dfa9ec03245ee2eca83ddfbaa0f52"
+arch = "aarch64"
+git-tree-sha1 = "d1f124f119ca87de1da54aab78b9db75a21e19b9"
 libc = "glibc"
 os = "linux"
 
     [[nPth.download]]
-    sha256 = "e0fffe02093e0e68a79a8f64bc6d607a68d899a8cc023af88968342372053c94"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "8c5bc6b3e3346336a162137c79ede43dec3fea7ff25aef9d7e0643d0fff026fb"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.aarch64-linux-gnu.tar.gz"
 [[nPth]]
-arch = "x86_64"
-git-tree-sha1 = "1fb46d386b555328141ae00d3d2bb557a5e763a9"
+arch = "aarch64"
+git-tree-sha1 = "b3400ae5aa98bb2fe9ce52fa2c763869593c77f4"
 libc = "musl"
 os = "linux"
 
     [[nPth.download]]
-    sha256 = "9371fa38806c4a97745f736f1713d46ae4142431cc839b3fcaeb91c1356aebe7"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.x86_64-linux-musl.tar.gz"
+    sha256 = "b24c571cc66cb0f2e988bad0ce79fd19eb577060e97c384a1bec6878ef372b88"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.aarch64-linux-musl.tar.gz"
 [[nPth]]
-arch = "x86_64"
-git-tree-sha1 = "360be45fdf3f6db8d0eeea8ce7beb7abd218a03d"
+arch = "aarch64"
+git-tree-sha1 = "7672a3b664f36a51d4d3f7ff6722e40eb5166939"
 os = "freebsd"
 
     [[nPth.download]]
-    sha256 = "9e59d61b596891d4f7fa7ecfad229c17634778183adcce3d94369de8376c0d0b"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "78bdc577e5558fcbe1051e2e02b8e8360622d314da50ac21ef410f02a32de584"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.aarch64-unknown-freebsd.tar.gz"
 [[nPth]]
-arch = "x86_64"
-git-tree-sha1 = "921590958cfb4d7877bad5caae968fe8b617622d"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e271587cfa26042caec151243878423ccb641830"
+libc = "glibc"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "0ab0e965ab8a6c54820b62547dcf54803a4fee055ab2ccc588433ec8a883896a"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.armv6l-linux-gnueabihf.tar.gz"
+[[nPth]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "09e292960d8fd724a494daeed9f59ac8999f63d3"
+libc = "musl"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "00344f70493b203d08f1484d49c47d091644c7b6f878bcd00853cb447c3bcd14"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.armv6l-linux-musleabihf.tar.gz"
+[[nPth]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2b2d42ba712f85df3cba2f14f5041e9b149f3f96"
+libc = "glibc"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "40aa3b63268be7b7edfecb2051523c5cd0ab55824db2f7adb983c543e51ec66c"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.armv7l-linux-gnueabihf.tar.gz"
+[[nPth]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "3c0ed0a9a1e3547147bc01619e6ff620f02e710c"
+libc = "musl"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "5b42003a8d038072f16a8917606b432c17d5d0bca68e2154f59134246e41a207"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.armv7l-linux-musleabihf.tar.gz"
+[[nPth]]
+arch = "i686"
+git-tree-sha1 = "81fad5087aa7ec51f199c0a299180d7a76d62eb1"
+libc = "glibc"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "fede74925f606f5e57e8dd9ae67ecff692ca8d31464f7957b90b2d8904b876ea"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.i686-linux-gnu.tar.gz"
+[[nPth]]
+arch = "i686"
+git-tree-sha1 = "8c6ab936610d67dd24face668a715bdf214d03a7"
+libc = "musl"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "1e86caefff6e0255b4b608c05e466c0177bdaf6c648f1d4b33b825014f595630"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.i686-linux-musl.tar.gz"
+[[nPth]]
+arch = "i686"
+git-tree-sha1 = "c2ad2a3bf72c8f9597f91f5e29a29a3d0bb0b592"
 os = "windows"
 
     [[nPth.download]]
-    sha256 = "e1ff41fcd3d53e44b166dc0fd457a2f97d2ca10047a8ea84d893eaa622cc1ece"
-    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.6.0+0/nPth.v1.6.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "cbcec2a4e6405c3bca05cd854a02f372e59bfc4cbc1ddeb379c48d64e0b1b50b"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.i686-w64-mingw32.tar.gz"
+[[nPth]]
+arch = "powerpc64le"
+git-tree-sha1 = "83f93ae96d3aa8a6379ae2d4dbb43f958a0a1362"
+libc = "glibc"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "6859b2e8b190364bf7757453cc91c25432f25cbd22a7ba4617cfedb5bb9da0aa"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.powerpc64le-linux-gnu.tar.gz"
+[[nPth]]
+arch = "x86_64"
+git-tree-sha1 = "241571b93fcee5744d30bb40d1c8c59e44f077fe"
+os = "macos"
+
+    [[nPth.download]]
+    sha256 = "0938cafb00980622c8103b19b25e6c4d51e6f09b4990b2291ab31a8b807dcfcb"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.x86_64-apple-darwin.tar.gz"
+[[nPth]]
+arch = "x86_64"
+git-tree-sha1 = "3cef0107de3e3d76271f19824a0d1bed44eb2480"
+libc = "glibc"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "5423bcdda00c30ec3b3e689e21c1f3fc3699ab075c6c0832751ac412e64518e1"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.x86_64-linux-gnu.tar.gz"
+[[nPth]]
+arch = "x86_64"
+git-tree-sha1 = "948f1e65d75c70accd1703281fce3b866e7bd518"
+libc = "musl"
+os = "linux"
+
+    [[nPth.download]]
+    sha256 = "5f1cfc2dd248f518b10be5dd79434a95c4d8f9f392b2c0447f535199f5c3d36c"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.x86_64-linux-musl.tar.gz"
+[[nPth]]
+arch = "x86_64"
+git-tree-sha1 = "646573199fb5ecfdc33a58e319280dd7e4e14d71"
+os = "freebsd"
+
+    [[nPth.download]]
+    sha256 = "471ed25b3aca57658dc9bfcc089734234d47232e77cb7d0828d6138eb6d88d45"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.x86_64-unknown-freebsd.tar.gz"
+[[nPth]]
+arch = "x86_64"
+git-tree-sha1 = "d11e7e13030eb8e84d8fb26dabaf05268fb15f59"
+os = "windows"
+
+    [[nPth.download]]
+    sha256 = "6405e21655cb2bd770e77cd3775b94419140076d0296b1ae813e52b943662726"
+    url = "https://github.com/JuliaBinaryWrappers/nPth_jll.jl/releases/download/nPth-v1.8.0+0/nPth.v1.8.0.x86_64-w64-mingw32.tar.gz"

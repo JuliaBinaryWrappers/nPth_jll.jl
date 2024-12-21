@@ -2,12 +2,12 @@
 export libnpth
 
 JLLWrappers.@generate_wrapper_header("nPth")
-JLLWrappers.@declare_library_product(libnpth, "libnpth6-0.dll")
+JLLWrappers.@declare_library_product(libnpth, "libnpth-0.dll")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libnpth,
-        "bin\\libnpth6-0.dll",
+        "bin\\libnpth-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
